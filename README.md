@@ -1,7 +1,7 @@
 # mac_os_tftp_server
 Start tftp server on macos
 
-# Folder for tftp server
+# TFTP server path on os X
 
 	finder > go
 

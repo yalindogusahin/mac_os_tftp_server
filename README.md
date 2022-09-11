@@ -8,10 +8,10 @@ Start tftp server on macos
 	/private/tftpboot
 
 # Terminal
-	'''
+
 	sudo launchctl load -F /System/Library/LaunchDaemons/tftp.plist
 	sudo launchctl start com.apple.tftpd
-	'''
+
 # To verify it
 	
 	netstat -atp UDP | grep tftp
@@ -35,6 +35,5 @@ Start tftp server on macos
 	dir flash:
 
 # To stop tftp server
-	'''
+
 	sudo launchctl unload -F /System/Library/LaunchDaemons/tftp.plist
-	'''

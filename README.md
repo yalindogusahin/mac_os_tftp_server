@@ -7,7 +7,7 @@ Start tftp server on macos
 
 	/private/tftpboot
 
-# Terminal
+# Open Terminal and write commands below to start tftp server
 
 	sudo launchctl load -F /System/Library/LaunchDaemons/tftp.plist
 	sudo launchctl start com.apple.tftpd
